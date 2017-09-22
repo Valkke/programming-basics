@@ -10,58 +10,84 @@ namespace conditional_statement
     {
         static void Main(string[] args)
         {
-            // Define istructions
-            Console.WriteLine("Ohjelma tulostaa positiivinen, negatiivinen tai nolla.");
-            bool isNumber;
-            do
-            {
-                Console.Write("Syötä luku ");              
-                string userInput;
-                userInput = Console.ReadLine();
-                //define variables
 
-              
+            // Define instructions
+
+            Console.WriteLine("Ohjelma tulostaa positiivinen, negatiivinen tai nolla.");
+
+            bool isNumber;
+
+            do
+
+            {
+
+                Console.Write("Syötä luku: ");
+
+                string userInput;
+
+                userInput = Console.ReadLine();
+
+                // define variables
 
                 int evaluatedNumber;
+
                 isNumber = int.TryParse(userInput, out evaluatedNumber);
 
                 // program logic
+
                 if (isNumber == true)
 
                 {
 
-
                     if (evaluatedNumber < 0)
+
                     {
-                        Console.WriteLine($"Numero {evaluatedNumber}on negatiivinen");
+
+                        Console.WriteLine($"Numero {evaluatedNumber} on negatiivinen");
 
                     }
+
                     else if (evaluatedNumber > 0)
 
                     {
+
                         Console.WriteLine($"Numero {evaluatedNumber} on positiivinen");
+
                     }
+
                     else
 
+                    {
+
                         Console.WriteLine($"Numero {evaluatedNumber} on nolla");
+
+                    }
+
+
+
                 }
 
-
                 else
+
                 {
+
                     Console.WriteLine("Syötit muuta kuin numeroita!");
 
                 }
+
             } while (isNumber == false);
+
             Console.ReadKey();
-        }
+             }
     }
 }
-        
-          
-               
-                
 
-            
-    
+
+
+
+
+
+
+
+
 
