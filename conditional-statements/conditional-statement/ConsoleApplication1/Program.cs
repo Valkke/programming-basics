@@ -35,7 +35,7 @@ namespace ConsoleApplication1
             else
 
             {
-
+               
                 Console.WriteLine($"Syötit luvun {evaluatedNumber}, se on pariton");
 
             }

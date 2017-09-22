@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace conditional_statement
+namespace task_3
 {
     class Program
     {
         static void Main(string[] args)
-        {
 
-            // Define instructions
+        { // Define instructions
 
             Console.WriteLine("Ohjelma tulostaa positiivinen, negatiivinen tai nolla.");
 
@@ -35,6 +34,22 @@ namespace conditional_statement
 
                 // program logic
 
+
+                if (evaluatedNumber % 2 == 0)
+
+                {
+
+                    Console.WriteLine($"Syötit luvun {evaluatedNumber}, se on parillinen");
+
+                }
+
+                else
+
+                {
+
+                    Console.WriteLine($"Syötit luvun {evaluatedNumber}, se on pariton");
+
+                }
                 if (isNumber == true)
 
                 {
@@ -63,7 +78,7 @@ namespace conditional_statement
 
                     }
 
-                    
+
 
                 }
 
@@ -78,12 +93,9 @@ namespace conditional_statement
             } while (isNumber == false);
 
             Console.ReadKey();
-             }
+        }
     }
 }
-
-
-
 
 
 
