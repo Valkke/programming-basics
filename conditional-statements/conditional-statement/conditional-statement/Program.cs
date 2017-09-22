@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace conditional_statement
+namespace task-1
 {
     class Program
     {
