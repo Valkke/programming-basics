@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-3", "task-3\task-3.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-4", "task-4\task-4.csproj", "{72D5B5F3-0556-4833-9AD5-6CD40F063D69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-5", "Task-5\task-5.csproj", "{74399EC7-C869-4B23-87CB-68AD139B54EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harkka", "harkka\harkka.csproj", "{F8FA9487-901B-4AA4-8719-8501DAEB787F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{72D5B5F3-0556-4833-9AD5-6CD40F063D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72D5B5F3-0556-4833-9AD5-6CD40F063D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72D5B5F3-0556-4833-9AD5-6CD40F063D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74399EC7-C869-4B23-87CB-68AD139B54EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74399EC7-C869-4B23-87CB-68AD139B54EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74399EC7-C869-4B23-87CB-68AD139B54EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74399EC7-C869-4B23-87CB-68AD139B54EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FA9487-901B-4AA4-8719-8501DAEB787F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FA9487-901B-4AA4-8719-8501DAEB787F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FA9487-901B-4AA4-8719-8501DAEB787F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FA9487-901B-4AA4-8719-8501DAEB787F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
